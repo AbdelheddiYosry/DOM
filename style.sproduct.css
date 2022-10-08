@@ -1,0 +1,74 @@
+body{
+    background: rgb(192, 233, 220);
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 999;
+    top: 0;
+    left: 0;
+    padding: 10px 80px;
+
+}
+#cartlogoshooping{
+    height: 30px;
+    width: 30px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar li{
+    list-style: none;
+    padding: 0 20px;
+}
+.navbar li a{
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: rgb(93, 75, 75);
+}
+.navbar li a:hover{
+    color: rgb(212, 242, 242);
+}
+.footer{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+}
+.dfooter{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 20px;
+}
+.copyR{
+        text-align: center;
+}
+#productphoto1{
+    width: 100%;
+}
+.smal1{
+    width: 100%;
+}
+.single-pro-image{
+    width: 40%;
+    margin-right: 50px;
+}
+.small-img-grp{
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    flex-basis: 24%;
+}
+.prodectdetail{
+    display: flex;
+    justify-content: space-between;
+}
+.b{
+    cursor: pointer;
+    background-color: rgb(145, 224, 194);
+    color: rgb(50, 42, 42);
+}
